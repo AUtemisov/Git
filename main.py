@@ -73,7 +73,7 @@ for category_name, category_url in all_categories.items():
 
             )
         with open(f'data/{__id}_{category_name}.txt', 'a', encoding='utf-8') as file:
-                file.write(text)
+            file.write(text)
         with open(f"data/{__id}_{category_name}.json", 'a', encoding='utf-8') as file:
             json.dump(product_info, file, indent=4, ensure_ascii=False)
 
