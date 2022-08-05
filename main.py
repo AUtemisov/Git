@@ -88,3 +88,4 @@ for category_name, category_url in all_categories.items():
         sleep(random.randrange(2, 4))
     else:
         continue
+print('Hello world')
